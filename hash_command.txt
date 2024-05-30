@@ -1,0 +1,6 @@
+windows
+Get-FileHash -Path file-name -Algorithm SHA256
+
+linux
+echo -n "file-name" | sha256sum
+
